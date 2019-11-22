@@ -211,10 +211,10 @@ microservice MeetingRoom, Meeting, Participant with meeting
 deployment {
   deploymentType kubernetes
   appsFolders [ui, organization, leave, meeting, notification]
-  dockerRepositoryName "shagunbandi"
+  dockerRepositoryName "anantgowadiya"
   serviceDiscoveryType no
   istio true
   kubernetesServiceType Ingress
   kubernetesNamespace avengers
-  ingressDomain "34.67.38.135.nip.io"
+  ingressDomain "34.70.72.55.nip.io"
 }
